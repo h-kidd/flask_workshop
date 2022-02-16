@@ -1,0 +1,55 @@
+2022-02-16 10:00:18,479 INFO: Microblog startup [in C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\__init__.py:47]
+2022-02-16 10:00:24,215 INFO: Cypher startup [in C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\__init__.py:47]
+2022-02-16 10:02:45,983 INFO: Cypher startup [in C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\__init__.py:47]
+2022-02-16 10:03:22,640 INFO: Cypher startup [in C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\__init__.py:47]
+2022-02-16 10:05:23,466 INFO: Cypher startup [in C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\__init__.py:47]
+2022-02-16 10:05:31,957 ERROR: Exception on /register [GET] [in C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\routes.py", line 70, in register
+    if currennt_user.is_authenticated:
+NameError: name 'currennt_user' is not defined
+2022-02-16 10:13:19,108 ERROR: Exception on /register [GET] [in C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\routes.py", line 70, in register
+    if currennt_user.is_authenticated:
+NameError: name 'currennt_user' is not defined
+2022-02-16 10:15:09,449 INFO: Cypher startup [in C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\__init__.py:47]
+2022-02-16 10:15:10,397 INFO: Cypher startup [in C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\__init__.py:47]
+2022-02-16 10:29:20,031 INFO: Cypher startup [in C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\__init__.py:49]
+2022-02-16 11:15:28,011 INFO: Cypher startup [in C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\__init__.py:49]
+2022-02-16 11:17:10,989 INFO: Cypher startup [in C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\__init__.py:49]
+2022-02-16 11:17:20,230 ERROR: Exception on /register [GET] [in C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hkidd\.virtualenvs\flask_workshop-WBS7Fo_4\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\hkidd\Documents\futureproof\challenges\flask_workshop\app\routes.py", line 74, in register
+    if currennt_user.is_authenticated:
+NameError: name 'currennt_user' is not defined
